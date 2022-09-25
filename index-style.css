@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+section .main{
+    height: 100vh;
+    width: 90%;
+    background-color: rgb(18, 154, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-right:8px solid red;
+    border-left:8px solid purple;
+}
+.main form{
+    background-color: white;
+    display: flex;
+    height: 330px;
+    width: 440px;
+    align-items: center;
+    justify-content: center;
+}
+.word p{
+    font-size: larger;
+    color: rgb(14, 193, 253);
+}
+form .info{
+    margin: 30px 0px 25px 0px;
+}
+.info input{
+    padding-left: 10px;
+    font-weight: bold;
+    outline-color:  rgb(112, 209, 247);
+}
+.info .name{
+    margin-bottom: 25px;
+    height: 45px;
+    width: 350px;
+}
+.info .pass{
+    height: 45px;
+    width: 350px;
+}
+form .log-in{
+    line-height: 45px;
+    text-align: center;
+}
+.log-in input{
+    font-size: medium;
+    color: white;
+    background-color: rgb(18, 154, 199);
+    padding: 13px 155px;
+    border: 1px solid rgb(18, 154, 199);
+}
+form .log-in input:hover{
+    background-color: rgb(112, 209, 247);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

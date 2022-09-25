@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index-style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinplus/log-in</title>
+</head>
+<body>
+    <section>
+        <div class="main">
+
+                <form name="myform" action="answer.html" onsubmit=" return validateform()">
+
+                    <div class="account">
+
+                        <div class="word">
+                            <p>Login To Your Account</p>
+                        </div>
+
+                        <div class="info">
+                            <input autocomplete="off" type="text" name="username" placeholder="Username" class="name" required="required"> <br>
+                            <input type="password" name="password" placeholder="Password" class="pass" required="required">
+                        </div>
+
+                        <div class="log-in">
+                            <input type="submit" value="Login">
+                        </div>
+
+                    </div>
+
+                </form>
+
+        </div>
+
+    </section>
+
+    <script>
+        function validateform(){
+            var Password=document.myform.password.value;
+
+            if (Password.length<8){
+                alert("Password must be at least 8 characters long");
+                return false;
+            }
+            else {
+                alert("welcome user, click ok to agree to KINPLUS TECH terms and conditions")
+            }
+        }
+    </script>
+</body>
+</html>
